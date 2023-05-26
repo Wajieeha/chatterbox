@@ -1,0 +1,255 @@
+html,
+body{
+font-family: sans-serif;
+display: flex;
+align-items: center;
+justify-content: center;
+min-height: 100vh;
+width: 100%;
+background-image: url("neon2.jpg");
+background-size: cover;
+background-position: center;
+
+}
+@keyframes  animateBg{
+    100%{
+        filter: hue-rotate(360deg);
+
+    }
+}
+
+.form {
+position: relative;
+padding: 60px 15px;
+width: 270px;
+height: 350px;
+align-items: center;
+background: transparent;
+border: 2px solid rgba(255, 255, 255, .5);
+overflow: hidden;
+backdrop-filter: blur(15px);
+box-shadow: 0px 0px 10px 0px rgb(116, 119, 114);
+border-radius: 5px;
+}
+
+.form-inner {
+position: absolute;
+height: 98%;
+align-items: center;
+width: 98%;
+top: 50%;
+left: 50%;
+background: #0c0116;
+transform: translate(-50%, -50%);
+}
+
+.content {
+height: 100%;
+width: 100%;
+padding: 25px;
+}
+.form-inner h2 {
+font-size: 25px;
+color: #d7a3d7;
+text-align: center;
+padding-top: 35px;
+}
+.input {
+display: block;
+padding: 12px 15px;
+width: 100%;
+left: 50%;
+border-radius: 10px;
+margin-top: 20px;
+border: 1.5px solid rgb(109, 87, 121);
+outline: none;
+background: #19052c;
+color: white;
+}
+
+.btn {
+cursor: pointer;
+color: white;
+margin-top: 40px;
+width: 100%;
+padding: 12px;
+outline: none;
+background: black;
+border-color: #00cfff;
+padding: 7px 12px;
+font-size: 18px;
+border-radius: 30px;
+transition: 0.4s;
+
+}
+.btn:hover {
+background: #00cfff;
+}
+
+.form span {
+position: absolute;
+height: 50%;
+width: 50%;
+
+}
+
+.form span:nth-child(1) {
+background: #00cfff;
+top: 0;
+left: -48%;
+animation: 5s span1 infinite linear;
+animation-delay: 1s;
+}
+.form span:nth-child(2) {
+background: #d400d4;
+bottom: 0;
+right: -48%;
+animation: 5s span2 infinite linear;
+}
+.form span:nth-child(3) {
+background: #d400d4;
+right: -48%;
+top: 0px;
+animation: 5s span3 infinite linear;
+}
+.form span:nth-child(4) {
+background: #00cfff;
+bottom: 0;
+right: -48%;
+animation: 5s span4 infinite linear;
+animation-delay: 1s;
+}
+
+@keyframes span1 {
+0% {
+  top: -48%;
+  left: -48%;
+}
+25% {
+  top: -48%;
+  left: 98%;
+}
+50% {
+  top: 98%;
+  left: 98%;
+}
+75% {
+  top: 98%;
+  left: -48%;
+}
+100% {
+  top: -48%;
+  left: -48%;
+}
+}
+@keyframes span2 {
+0% {
+  bottom: -48%;
+  right: -48%;
+}
+25% {
+  bottom: -48%;
+  right: 98%;
+}
+50% {
+  bottom: 98%;
+  right: 98%;
+}
+75% {
+  bottom: 98%;
+  right: -48%;
+}
+100% {
+  bottom: -48%;
+  right: -48%;
+}
+}
+@keyframes span3 {
+0% {
+  top: -48%;
+  left: -48%;
+}
+25% {
+  top: -48%;
+  left: 98%;
+}
+50% {
+  top: 98%;
+  left: 98%;
+}
+75% {
+  top: 98%;
+  left: -48%;
+}
+100% {
+  top: -48%;
+  left: -48%;
+}
+}
+
+@keyframes span4 {
+0% {
+  bottom: -48%;
+  right: -48%;
+}
+25% {
+  bottom: -48%;
+  right: 98%;
+}
+50% {
+  bottom: 98%;
+  right: 98%;
+}
+75% {
+  bottom: 98%;
+  right: -48%;
+}
+100% {
+  bottom: -48%;
+  right: -48%;
+}
+}
+body {
+  align-items: center;
+  height: 100%;
+}
+.mt-10{
+  margin-top:10px;
+}
+body {
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  width: 100%;
+  background-image: url("neon2.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
+  align-items: center;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}

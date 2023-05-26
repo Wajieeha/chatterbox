@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<!-- insert your AIML categories here -->
+<category>
+    <pattern>HI</pattern>
+    <template>
+        <random><li>hi,how are you?</li>
+        <li>hello how are you?</li>
+        <li>ooo hello</li>
+        
+        </random>
+
+    </template>
+</category>
+<category>
+    <pattern>Hello</pattern>
+    <template> <random><li>hi,how are you</li>
+        <li>hello how are you</li>
+        <li>ooo hello</li>
+        </random>
+</template>
+</category>
+<category>
+    <pattern>how are you</pattern>
+    <template>i am fine
+</template>
+</category>
+<category>
+    <pattern>I am very angry</pattern>
+    <template>oo sorry but why
+</template>
+</category>
+<category>
+ <pattern>lets talk friendly</pattern>
+ <template>Do you know who is</template>
+</category>
+<category>
+      <pattern>YES</pattern>
+      <that>Do you know who is</that>
+      <template>Nice, I am her friend</template>
+</category>
+<category>
+      <pattern>NO</pattern>
+      <that>Do you know who is</that>
+      <template>Ok!</template>
+</category>
+<category>
+    <pattern>today is sunday</pattern>
+    <template>wao nice
+</template>
+</category>
+<category>
+    <pattern>Hi*</pattern>
+    <template> <random><li>hi,how are you</li>
+        <li>hello how are you?</li>
+        <li>ooo hello</li>
+        </random>
+</template>
+</category>
+<category>
+    <pattern>how are you?</pattern>
+    <template>I am fine tell me about you</template>
+</category>
+ <random><li>hi,how are you?</li>
+        <li>hello how are you?</li>
+        <li>ooo hello</li>
+        
+        </random>
+
+</aiml>

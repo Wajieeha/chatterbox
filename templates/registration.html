@@ -1,0 +1,65 @@
+
+<!doctype html>
+<html lang="en" data-bs-theme="auto">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.111.3">
+    <title>Signin Template · Bootstrap v5.3</title>
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/sign-in/">
+
+<link href="/static/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <!-- Custom styles for this template -->
+    <link href="/static/css/sign-in.css" rel="stylesheet">
+  </head>
+  <style>
+    .form {
+position: relative;
+padding: 60px 15px;
+width: 270px;
+height: 500px;
+align-items: center;
+background: transparent;
+border: 2px solid rgba(255, 255, 255, .5);
+overflow: hidden;
+backdrop-filter: blur(15px);
+box-shadow: 0px 0px 10px 0px rgb(116, 119, 114);
+border-radius: 5px;
+}
+  </style>
+  <body class="text-center">
+  <div class ="container">
+      <div class ="col-md-10">
+      <h1 class="text-light display-4 mt-10" style = "font-size: 80px">Welcome to my chatbot</h1>
+    </div>
+  </div>
+<main class="form-signin w-100 m-auto">
+  <form name= "passdata" class="form" action="." method="post">
+    <div class="form-floating">
+      <input type="text" class="form-control" placeholder="Username" id="username" name="username">
+      <label for="username">Name</label>
+       </div>
+      <div class="form-floating">
+      <input type="email" class="form-control" id="email" name="email" placeholder="name@example.com">
+      <label for="email">Email address</label>
+    </div>
+    <div class="form-floating">
+      <input type="password" class="form-control" id="pass1" name="pass1" placeholder="Password">
+      <label for="pass1">Password</label>
+    </div>
+
+    <div class="checkbox mb-3">
+      <label>
+        <input type="checkbox" value="remember-me"> Remember me
+      </label>
+    </div>
+       <button  type="submit" class="btn">Submit</button>
+    <p class="mt-5 mb-3 text-body-secondary">&copy; 2017–2023</p>
+  </form>
+  <p class="mt-2">Already a member? <a href='/'>Login here</a></p>
+   </main>
+  </body>
+</html>
+
